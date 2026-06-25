@@ -11,22 +11,29 @@ A decade across autonomous vehicles (Uber ATG), AR/VR research (Meta Reality Lab
 - **Embedded + AI** — ROS2, Arduino, and sensor integration where software meets hardware
 - **Self-hosted inference** — serving models with Ollama, vLLM, and LM Studio on local GPU infrastructure
 
-I lean toward building my own tooling in pure Python where it keeps a system dependency-light and fully owned — a habit you can see in the projects below.
+I lean toward building my own tooling in pure Python where it keeps a system dependency-light and fully owned — a habit visible across the projects below.
 
 ## Featured projects
 
-- **[pycuda-project-name]** — _[one line: what it does / what it demonstrates]_
-- **[YmlTorch](https://github.com/dennisbiber/YmlTorch)** — build PyTorch neural networks from YAML configuration alone
-- **[GradioUI_from_Yaml](https://github.com/dennisbiber/GradioUI_from_Yaml)** — the same declarative idea, applied to Gradio web UIs
-- **[Melydy](https://github.com/dennisbiber/Melydy)** — real-time audio system in C++ (drum pad, looper, sequencer, synthesizer)
+**AI & local-first systems**
+- **[LMContextCompiler](https://github.com/dennisbiber/LMContextCompiler)** — a stateful LLM conversation pipeline that compiles bounded context from externalized state each turn, instead of feeding the model an ever-growing transcript.
+- **[YmlTorch](https://github.com/dennisbiber/YmlTorch)** — build PyTorch neural networks from YAML configuration alone, no model code required.
+- **[GradioUI_from_Yaml](https://github.com/dennisbiber/GradioUI_from_Yaml)** — the same declarative idea, applied to Gradio web UIs.
+
+**Audio & visuals**
+- **[VisualAudioSystem](https://github.com/dennisbiber/VisualAudioSystem)** — a real-time, audio-reactive video synthesizer: GPU (GLSL) visuals modulated live by audio analysis and keyboard control, with MIDI planned.
+- **[Melydy](https://github.com/dennisbiber/Melydy)** — a real-time audio system in C++ (drum pad, looper, sequencer, synthesizer).
+
+**Physics**
+- **[galaxySim](https://github.com/dennisbiber/galaxySim)** — a 3D physics sandbox: Keplerian orbital dynamics and inverse-square force fields, computed from first principles in pure NumPy.
 
 ## Currently
 
-_[One or two sentences on what you're actively building — your on-prem AI stack / agent work. This is the line that says you're still shipping.]_
+Currently working on a stateful cogntive AI system for agentic workloads to help me find that cutting edge of AI knowledge. I am also working on some audio projects where I take music I have written, isolate the stems to train a neural network how to remix music to make a real-time live AI DJ. There are some Finite Element Analysis projects I have on the shelf to that I dabble with for simulating blackholes or other physics phenomenon to help keep my CUDA chops up to par.
 
 ## Also into
 
-Physics, applied math, and the occasional quantum-computing experiment. I tend to build things mostly to understand how they work.
+Physics, applied math, and the occasional quantum-computing experiment. I tend to build things mostly to understand how they work — which is how most of the projects above started.
 
 ## Reach me
 
