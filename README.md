@@ -37,4 +37,4 @@ Physics, applied math, and the occasional quantum-computing experiment. I tend t
 
 ## Reach me
 
-[LinkedIn](https://www.linkedin.com/in/dennis-biber-a67a1798) · _[email, if you want it public]_
+[LinkedIn](https://www.linkedin.com/in/dennis-biber-a67a1798)
